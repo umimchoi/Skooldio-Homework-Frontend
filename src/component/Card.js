@@ -6,7 +6,7 @@ function Card(prop) {
   const { faculty, likes, logo, name: major, roundSeats, score } = prop.prop;
   const { name: facultyName, university } = faculty;
   const { name: universityName } = university;
-  console.log(prop);
+
   return (
     <React.Fragment>
       <div className="p-3 shadow-sm shadow-warm-gray w-96 rounded-md">
