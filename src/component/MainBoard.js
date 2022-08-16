@@ -18,9 +18,9 @@ function MainBoard() {
   };
 
   return (
-    <div>
-      {datas.map((data) => {
-        return <Card data={data} />;
+    <div className="space-y-3">
+      {datas?.map((data) => {
+        return <Card key={data.id} prop={data} />;
       })}
     </div>
   );
