@@ -10,6 +10,7 @@ module.exports = {
         grapefruit: "#ff5a5a",
         "ocean-blue": "#48b6a3",
         "warm-gray-2": "#5f5f5f",
+        "warm-gray-3": "#4a4a4a",
       },
     },
   },
