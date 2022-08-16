@@ -61,31 +61,31 @@ function Card(prop) {
               </div>
             </div>
             <div>
-              <div className="flex flex-col text-right">
-                <span className="text-warm-gray-3">คะแนนของคุณคือ</span>
-                <span className="text-warm-gray-3 text-2xl">
+              <div className="flex flex-col text-right mb-3">
+                <span className="text-warm-gray-2 text-xs">คะแนนของคุณคือ</span>
+                <span className="text-warm-gray-3 text-5xl">
                   {score ? score.id : "0"}
                 </span>
               </div>
             </div>
-            <div className="flex">
+            <div className="flex space-x-5">
               <div className="flex flex-col mx-1">
-                <span className="text-warm-gray-3 text-2xl">
+                <span className="text-warm-gray-3 text-lg">
                   {score ? score.min : "0"}
                 </span>
-                <span className="text-warm-gray-3">คะแนนต่ำสุด 60</span>
+                <span className="text-warm-gray-3 text-xs">คะแนนต่ำสุด 60</span>
               </div>
               <div className="flex flex-col mx-1">
-                <span className="text-warm-gray-3 text-2xl">
+                <span className="text-warm-gray-3 text-lg">
                   {score ? score.avg : "0"}
                 </span>
-                <span className="text-warm-gray-3">คะแนนเฉลี่ย 60</span>
+                <span className="text-warm-gray-3 text-xs">คะแนนเฉลี่ย 60</span>
               </div>
               <div className="flex flex-col mx-1">
-                <span className="text-warm-gray-3 text-2xl">
+                <span className="text-warm-gray-3 text-lg">
                   {score ? score.max : "0"}
                 </span>
-                <span className="text-warm-gray-3">คะแนนสูงสุด 60</span>
+                <span className="text-warm-gray-3 text-xs">คะแนนสูงสุด 60</span>
               </div>
             </div>
           </div>
