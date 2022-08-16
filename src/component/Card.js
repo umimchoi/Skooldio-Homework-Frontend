@@ -36,6 +36,7 @@ function Card(prop) {
             {roundSeats?.map((data, index) => {
               return (
                 <div
+                  key={index}
                   className={clsx(
                     "rounded-full w-6 h-6 text-white mx-1 cursor-pointer",
                     {
